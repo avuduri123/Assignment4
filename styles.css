@@ -1,0 +1,83 @@
+/* Apply styles to the entire body */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  background-color: #42f5e0;
+}
+
+/* Apply styles to the first article (Title and author information) */
+article:first-of-type {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  margin: 20px;
+  background-color: #f0f0f0; /* Lighter gray background */
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+/* Apply styles to the abstract section */
+article h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #0066cc;
+  margin: 10px 0;
+}
+
+/* Apply styles to the design and results sections */
+article section {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  color: #444;
+  margin: 10px 0;
+  background-color: #ffffff; /* White background */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Apply styles to the image in the results section */
+article section img {
+  max-width: 100%;
+  margin: 10px 0;
+  box-shadow: 2px 2px 5px #888888;
+}
+
+/* Apply styles to the conclusion section */
+article section h2 {
+  font-family: Georgia, serif;
+  font-size: 20px;
+  color: #ff0000; /* Change to a bright red color */
+  margin: 10px 0;
+  background-color: #ffeeee; /* Light pink background */
+  padding: 10px;
+  border: 2px solid #ff9999; /* Add a 2px solid pink border */
+  border-radius: 5px;
+}
+
+/* Apply styles to the "Tags I Used" section */
+h1 {
+  font-family: "Courier New", monospace;
+  font-size: 18px;
+  color: #666;
+  margin: 20px;
+}
+
+/* Apply styles to the paragraph elements inside the "Tags I Used" section */
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #777;
+  margin: 5px 0;
+}
+
+/* Apply styles to the horizontal rule */
+hr {
+  border: 1px solid #999;
+  margin: 10px 0;
+  background-color: #ccc;
+}
